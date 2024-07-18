@@ -1,1 +1,1 @@
-# CV
+# Redo-ing my CV because it sucks and doing it in HTML since I don't want to re-remember Latex and I already know how to format things in HTML CSS.

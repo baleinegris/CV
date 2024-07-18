@@ -1,0 +1,95 @@
+body{
+    font-family: Josefin Sans;
+    background: rgb(204,204,204); 
+    width: 21cm;
+    height: 29.7cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: rgb(204,204,204); 
+    width: 21cm;
+    height: 29.7cm;
+    margin: 0 auto;
+  }
+
+  page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    position: relative;
+  }
+
+  page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+
+  @page {
+    size: 21cm 29.7cm;
+    margin: 0mm;
+  }
+
+.header{
+    padding: 10px 0 5px 0;
+    text-align: center;
+    font-family: Josefin Sans;
+    font-size: 23px;
+    height: fit-content;
+}
+
+subheader{
+    font-size: 12px;
+    display: flex;
+    padding: 0px;
+    margin: 5px;
+    justify-content: center;
+    font-family: Josefin Sans;
+}
+
+.sub-info{
+    padding: 0 10px 0 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-collapse: collapse;
+}
+
+#left-end{
+    border-left: 0px;
+}
+
+#right-end{
+    border-right: 0px;
+}
+
+section{
+    margin: 30px;
+    font-family: Josefin Sans;
+    font-size: 16px;
+}
+
+.date-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.date{
+    position: absolute;
+    right: 0;
+}
+
+.section-element-head{
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-title{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
