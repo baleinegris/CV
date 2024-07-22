@@ -1,16 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
 body{
     font-family: Josefin Sans;
     width: 21cm;
     height: 29.7cm;
     border: 1px solid black;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 0;
     padding: 0;
 }
 
 body {
     width: 21cm;
     height: 29.7cm;
-    margin: 0 auto;
+    margin: 0;
   }
 
   page {
@@ -31,6 +42,10 @@ body {
     margin: 0mm;
   }
 
+.header-bar{
+    background-color: rgb(0,0,0,0.5);
+    margin-top: 0px;
+}
 .header{
     padding: 10px 0 5px 0;
     text-align: center;
@@ -88,8 +103,8 @@ section{
 
 .section-title{
     font-size: 20px;
-    text-decoration: underline;
     margin-bottom: 5px;
+    border-bottom: 1px solid black;
 }
 
 .section-container{
