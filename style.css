@@ -1,7 +1,8 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+:root{
+    --sectiontitle: 20px;
 }
 
 body{
@@ -102,7 +103,7 @@ section{
 }
 
 .section-title{
-    font-size: 20px;
+    font-size: var(--sectiontitle);
     margin-bottom: 5px;
     border-bottom: 1px solid black;
 }
@@ -117,4 +118,8 @@ h3{
 
 #job-title{
     margin-bottom: 0px;
+}
+
+.school-content{
+    margin-left: 20px;
 }
