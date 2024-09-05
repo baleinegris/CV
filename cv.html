@@ -7,7 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <style>
+        @media print {
+            #competitions {
+                page-break-before: always;
+                margin-top: 30px !important; /* Adjust the margin as needed */
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="header-bar">
@@ -25,11 +34,12 @@
         <div class="section-container">
             <div class="school">
                 <div class="date-holder">
-                    <h3><strong>University of Toronto</strong></h3>
+                    <h3 class="school-name"><strong>University of Toronto</strong></h3>
                     <div class="date">– Toronto, Canada, Sept 2023 – Present</div>
                 </div>
                 <div class="school-content">
-                    <p class="section-element-head"><strong>Degree</strong>: Computer Science Specialist, Mathematics Minor</p>
+                    <p class="section-element-head"><strong>Computer Science Specialist, Mathematics Minor </strong> | <em>GPA: 3.81/4</em> </p>
+                    <p class="section-element-head">Awards:</p>
                     <ul class="honors">
                         <li>Archibald MacMurchy Memorial Scholarship</li>
                         <li>Dean's List Scholar 2023-2024</li>
@@ -38,7 +48,7 @@
             </div>
             <div class="school">
                     <div class="date-holder">
-                        <h3><strong>Lycée Français de New York</strong></h3>
+                        <h3 class="school-name"><strong>Lycée Français de New York</strong></h3>
                         <div class="date">– New York, United States, Sept 2019 – Jun 2023</div>
                     </div>
                     <p class="section-element-head"><strong>Option Internationale Baccalauréat – Specialization Mathematics and Computer Science</strong>| Très Bien Avec Félicitations du Jury</p>
@@ -51,7 +61,9 @@
     <section id="skills">
         <h2 class='section-title'><strong>Skills</strong></h2>
         <div class="section-container">
-            <p><strong>Technical Skills</strong>: Python, JavaScript, Java, HTML, CSS, SQL, PHP</p>
+            <p><strong>Technical Skills</strong>: Python, JavaScript, Java, HTML, CSS, SQL</p>
+            <p><strong>Tools & Services</strong>: Git, Firebase, Microsoft 365</p>
+            <p><strong>Design Methods</strong>: UML diagrams, Sequence Diagrams, Design Patterns, Clean Architecture</p>
             <p><strong>Language Skills</strong>: English (Native), French (Fluent), Mandarin (Intermediate)</p>
         </div>
     </section>
@@ -60,18 +72,19 @@
         <div class="section-container">
             <div class="project">
                 <div class="date-holder">
-                    <h3><strong>Suno Playlist Extender</strong></h3>
+                    <h3><strong>Ripple: Suno Playlist Extender</strong></h3>
                     <div class="date">JavaScript (React), Python (Flask), HTML, CSS</div>
                 </div>
                 <ul>
-                    <li>Developped a web application that allows users to extend their Spotify playlists by AI generating new music using Suno Ai.</li>
-                    <li>Used Spotify and Suno APIs to get playlist data and generate music</li>
+                    <li>Developped a full stack web application that allows users to extend their Spotify playlists by AI generating new music using Suno Ai.</li>
+                    <li>Used Spotify and Suno APIs to fetch playlist data and generate music</li>
                     <li>Created a backend server in Python using Flask to handle HTTP requests</li>
-                    <li>Designed a user interface using React JS</li>
-                    <li>Used Firebase to handle user authentification and to store user generated content</li>
+                    <li>Designed a user interface using React JS, HTML, and CSS</li>
+                    <li>Used Firebase to handle user authentification and database management</li>
                 </ul>
             </div>
         </div>
+        <br>
         <div class="section-container">
             <div class="project">
                 <div class="date-holder">
@@ -91,7 +104,7 @@
         <h2 class='section-title'><strong>Competitions</strong></h2>
         <div class="section-container">
             <ul>
-                <li>Participated in <strong>Concours Castor Informatique</strong> national french coding contest, <em>2023</em> <ul>
+                <li>Participated in Concours Castor Informatique national french coding contest, <em>2023</em> <ul>
                     <li>Highest Placement in Lycée Français de New York</li>
                 </ul></li>
                 <li>Participated in Concours Kangourou national French math contest, <em>2023</em><ul>
@@ -156,7 +169,6 @@
                     <div class="date">–Toronto, Canada Sept 2023 – Apr 2024</div>
                 </div>
                 <ul>
-                    <li>Attended training sessions learning how to manage house funds for my residence house</li>
                     <li>Attended monthly University College General Meetings and biannual University College Treasurer meetings</li>
                     <li>Managed cheques for my house and repaying residents for house expenses</li>
                 </ul>
@@ -172,6 +184,5 @@
             </div>
         </div>
     </section>
-    <p><strong>Certifications</strong>:  Emergency First Aid, CPR, High Five Certification  </p>
     </main>
 </html>
