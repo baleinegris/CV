@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+:root{
+    --left-col-elt-color: #f0f0f0;
+    --skill-ball-color: #3742ca;
+}
+
 .montserrat-Montserrat {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -191,5 +196,32 @@ li::marker {
 
 .col-1{
     width: 400px;
-    background-color: gainsboro;
+}
+
+.left-col-elt{
+    background-color: var(--left-col-elt-color);
+    margin: 1px;
+    border-radius: 10px;
+}
+
+.section-title-col{
+    background-color: #1D3557;
+    color: white;
+}
+
+.skill-list > *{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ball{
+    background-color: var(--skill-ball-color);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+strength{
+    display: flex;
+    gap: 2px;
 }
