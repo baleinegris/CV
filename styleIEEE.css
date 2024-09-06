@@ -38,7 +38,7 @@ body{
     font-family: Nunito;
     width: 21cm;
     height: 29.7cm;
-    /* border: 1px solid rgb(0, 0, 0); */
+    border: 1px solid rgb(0, 0, 0);
     color: var(--body-text-color);
     margin: 0;
     padding: 0;
@@ -82,7 +82,7 @@ main{
     width: 100%;
 }
 .header-bar{
-    width: 105%;
+    /* width: 105%; */
     /* background-color: rgb(51, 36, 184); */
     background-color: var(--accent-color);
     margin-top: 0px;
@@ -297,4 +297,8 @@ a{
 
 .indent{
     margin-left: 20px;
+}
+
+.right{
+    padding: 10px;
 }
